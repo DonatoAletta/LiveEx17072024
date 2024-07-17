@@ -11,7 +11,7 @@ public class PersonaManager {
     private static PersonaManager instance;
 
     //Synchronized forza il metodo ad andare in 'coda' quindi in un'ambiente multi-threading
-    //forza il metodo ad esser eseguito in single-thread
+    //forza il metodo ad esser eseguito in single-thread.
     public static synchronized PersonaManager getInstance(){
         if(instance == null){
             instance = new PersonaManager();
